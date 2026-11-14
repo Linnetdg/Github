@@ -2,7 +2,7 @@ def analizar_secuencia(numero):
     suma=0
     while numero != 1:
         if numero % 2 == 0:
-            numero /= 2
+            numero //= 2
             suma += 1
         else:
             numero = 3 * numero + 1
